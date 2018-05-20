@@ -35,6 +35,7 @@ Took me a little longer than I expected due to the following:
 
 - Tests could do with a possible refactor - though I do like them being quite clear.  They are repetitive so could be tightened up.
 - Validation on fields most definitely - general annotations with regex,etc would help.  Alternatively a json schema.
+- Add integration tests.
 - Review and handle responses better in the RestController
 - Handle the database layer a bit more intelligently - try to make it more generic so any database could be used - I just didn't have time to spend on it.  Likely something exists but I've missed it.
 - No logging whatsoever.. Obviously this would be added and thrown in Splunk or something similar.
